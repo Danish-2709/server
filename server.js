@@ -7,7 +7,7 @@ const router = express.Router();
 const app = express();
 const session = require('express-session');
 process.env.TZ = 'UTC';
-app.use(cors('http://localhost:3000'));
+app.use(cors('https://danish-2709.github.io/react-pdf-client'));
 app.use(session({ secret: 'H#k7^P3wLs&Rt@9v!ZnY5qR8zFkA2eV', resave: true, saveUninitialized: true  })); 
 app.use(bodyParser.json());
 
